@@ -1,0 +1,121 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #001427;
+  padding-top: 50px;
+  height: 15px;
+  box-shadow: 3px 3px 30px 2px grey;
+  position: relative;
+}
+
+#logo {
+  font-family: "The Nautigal", cursive;
+  font-size: 40px;
+  color: whitesmoke;
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+}
+#navBar {
+  position: relative;
+  bottom: 155px;
+  left: 154px;
+  
+}
+
+#navBar ul li a {
+  display: inline-block;
+  color: whitesmoke;
+  text-decoration: none;
+  padding-bottom: 5px;
+
+}
+
+
+#navBar ul li a:hover {
+color: #ff8c61;
+border-bottom:2.5px #ff8c61 solid;
+
+  }
+
+#navBar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 9.5px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+
+header .dropDown {
+  position: absolute;
+  top: 25px;
+  left: 945px;
+
+}
+
+header .dropDown #dropLink {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+header .dropDown .dropContent a {
+ color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  z-index: 1;
+  display:none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 20px;
+  background-color: darkgrey;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 10px;
+}
+header .dropDown #dropLink:hover{
+    color:#ff8c61;
+    }
+
+.dropDown:hover .dropContent a {
+  display: block;
+  position: relative;
+}
+#image{
+    position: absolute;
+    width:30px;
+    left: 900px;
+    top:19px;
+}
+
+#FirstHeader{
+     text-align: center;
+     font-family: 'Fira Sans', sans-serif;
+    border-bottom: black solid 3.5px;
+    padding: 5px;
+    padding-top: 30px;
+    margin:  1px 42%;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* transition: 0.3s; */
+  width: 20%;
+  background-color: grey;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
