@@ -58,7 +58,8 @@ header {
 header .dropDown {
   position: absolute;
   top: 25px;
-  left: 945px;
+  right:8%;
+  float: right;
 }
 
 header .dropDown #dropLink {
@@ -101,8 +102,9 @@ header .dropDown .dropContent a:hover {
 #image {
   position: absolute;
   width: 30px;
-  left: 900px;
+  right: 18%;
   top: 19px;
+  float: right;
 }
 
 #FirstHeader {
