@@ -2,6 +2,15 @@ body {
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
+  background: linear-gradient(
+    to left,
+    #ADA996,
+    #F2F2F2,
+    #DBDBDB,
+    #EAEAEA
+    
+  
+  );
 }
 
 header {
@@ -17,14 +26,13 @@ header {
   font-size: 40px;
   color: whitesmoke;
   position: relative;
-  bottom: 80px;
+  bottom: 85px;
   left: 40px;
 }
 #navBar {
   position: relative;
-  bottom: 155px;
+  bottom: 159.1px;
   left: 154px;
-  
 }
 
 #navBar ul li a {
@@ -32,15 +40,12 @@ header {
   color: whitesmoke;
   text-decoration: none;
   padding-bottom: 5px;
-
 }
 
-
 #navBar ul li a:hover {
-color: #ff8c61;
-border-bottom:2.5px #ff8c61 solid;
-
-  }
+  color: #ff8c61;
+  border-bottom: 2.5px #ff8c61 solid;
+}
 
 #navBar ul li {
   list-style: none;
@@ -50,14 +55,10 @@ border-bottom:2.5px #ff8c61 solid;
   font-family: "Josefin Sans", sans-serif;
 }
 
-
-
-
 header .dropDown {
   position: absolute;
   top: 25px;
   left: 945px;
-
 }
 
 header .dropDown #dropLink {
@@ -68,54 +69,222 @@ header .dropDown #dropLink {
 }
 
 header .dropDown .dropContent a {
- color: whitesmoke;
+  color: black;
   text-decoration: none;
   text-align: center;
   z-index: 1;
-  display:none;
+  display: none;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  padding: 20px;
-  background-color: darkgrey;
+  width: 95%;
+  padding: 10px;
+  background-color: #d8f3dc;
   font-family: "Josefin Sans", sans-serif;
-  margin-top: 10px;
+  margin-top: 0px;
+  position: relative;
+  right: 10px;
+  top: 20px;
+  font-weight: bolder;
 }
-header .dropDown #dropLink:hover{
-    color:#ff8c61;
-    }
+header .dropDown #dropLink:hover {
+  color: #ff8c61;
+}
 
 .dropDown:hover .dropContent a {
   display: block;
   position: relative;
 }
-#image{
-    position: absolute;
-    width:30px;
-    left: 900px;
-    top:19px;
+
+header .dropDown .dropContent a:hover {
+  background-color: lightgrey;
 }
 
-#FirstHeader{
-     text-align: center;
-     font-family: 'Fira Sans', sans-serif;
-    border-bottom: black solid 3.5px;
-    padding: 5px;
-    padding-top: 30px;
-    margin:  1px 42%;
+#image {
+  position: absolute;
+  width: 30px;
+  left: 900px;
+  top: 19px;
 }
 
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  /* transition: 0.3s; */
-  width: 20%;
-  background-color: grey;
+#FirstHeader {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  border-bottom: black solid 3.5px;
+  padding: 5px;
+  padding-top: 30px;
+  margin: 1px 42%;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.flex-container {
+  display: flex;
+  width: 85%;
+  height: 70%;
+  margin-left: 7.5%;
+}
+
+.flex-child {
+  flex: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+  position: relative;
+  margin: 20px;
+  top: 30px;
+  background-color: whitesmoke;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.flex-child:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.secondSection {
+  position: relative;
+  top: 300px;
+}
+
+.cardFont {
+  font-family: "Fira Sans", sans-serif;
+}
+.cardPara {
+  font-family: "Fira Sans", sans-serif;
+}
+
+footer {
+  background-color: #001427;
+  margin-top: 50px;
 }
 
 .container {
-  padding: 2px 16px;
+  display: flex;
+  padding: 3rem;
+  padding-left: 120px;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  justify-content: space-around;
+  height: 150px;
+  margin-left:54px ;
+}
+
+.container .section {
+  flex-basis: 50%;
+  padding: 0 20px;
+}
+
+.leftSection h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.rightSection h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.leftSection {
+  width: 28%;
+}
+.rightSection {
+  width: 28%;
+}
+
+.leftSection .content .social {
+  margin: 20px 0 0 0;
+}
+
+.leftSection .content .social a {
+  padding: 0 2px;
+  color: white;
+}
+
+.leftSection .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: 0.4s;
+  border: 1px solid #656565;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.rightSection .content .phone {
+  margin: 15px 0;
+}
+
+.leftSection .content .social a span:hover {
+  background: #ff8c61;
+}
+
+.footer-bottom div {
+  /* padding: 5px; */
+  font-size: 0.9375rem;
+  background: #151515;
+  color: white;
+  font-family: "The Nautigal", cursive;
+  height: 45px;
+}
+
+.footer-bottom div p {
+  font-size: 30px;
+  text-align: center;
+}
+#mainContact{
+ background: linear-gradient(
+  to right,
+  #ADA996,
+  #F2F2F2,
+  #DBDBDB,
+  #EAEAEA
+  
+
+);
+height: 600px;
+
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color:#656565;
+}
+
+input[type=submit]:hover {
+  background-color:#001427 ;
+  /* color: #151515; */
+
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+form label{
+  color:#001427;
+  font-weight: bolder;
 }

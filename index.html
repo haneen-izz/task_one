@@ -7,10 +7,11 @@
     <title>jordan</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="logo.jpg" type="image/jpg" />
+
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
     </style>
-    
+
     <script
       src="https://kit.fontawesome.com/ca366949b7.js"
       crossorigin="anonymous"
@@ -18,9 +19,9 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
     </style>
-   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
-    </style> 
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+    </style>
   </head>
   <body>
     <header>
@@ -37,50 +38,169 @@
 
       <img id="image" src="user.png" alt="" />
       <div class="dropDown">
-       
         <a id="dropLink" href="#"
           >haneen jaradeh <i class="fas fa-caret-down"></i>
         </a>
 
         <div class="dropContent">
-          <a href="#">page1</a>
-          <a href="#">page2</a>
+          <a href="index.html">Home page</a>
+          <a href="contactUs.html">contact us</a>
         </div>
       </div>
     </header>
     <main>
-   <div>
-       <img src="https://media.kempinski.com/34376528/infinity-pool-sunset-2018.jpg;width=1905;height=794;mode=crop;anchor=middlecenter;autorotate=true;quality=85;scale=both;progressive=true;encoder=freeimage;format=jpg" alt="" style="width:100%; height:350px ; object-fit: cover  ;z-index: -1 ; position: relative; box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2); ">
-   </div>
+      <div>
+        <img
+          src="https://media.kempinski.com/34376528/infinity-pool-sunset-2018.jpg;width=1905;height=794;mode=crop;anchor=middlecenter;autorotate=true;quality=85;scale=both;progressive=true;encoder=freeimage;format=jpg"
+          alt=""
+          style="
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            z-index: -1;
+            position: relative;
+            box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+          "
+        />
+      </div>
 
-   <div>
-   <h2 id="FirstHeader">
-    places in jordan   
-   </h2>
+      <div>
+        <h2 id="FirstHeader">places in jordan</h2>
+      </div>
 
-   <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="Avatar" style="width:100%">
-    <div class="container">
-      <h4><b>John Doe</b></h4>
-      <p>Architect & Engineer</p>
-    </div>
-    
+      <div class="flex-container">
+        <div class="flex-child">
+          <img
+            src="https://bilder.apollo.no/aqaba-1567267234-179186-ImageGalleryLightbox.jpg"
+            alt="Avatar"
+            style="width: 100%"
+          />
+          <h3 class="cardFont"><b>Aqaba</b></h3>
+          <p class="cardPara">
+            Aqaba is Jordan's only Red Sea resort and port city which is warm,
+            sunny, inviting, and has a dazzling undersea world of some of the
+            most spectacular coral reefs to be found anywhere else, located 332
+            km (206 miles) south of Amman.
+          </p>
+        </div>
 
-  </div> 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+        <div class="flex-child">
+          <img
+            src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/b281873e9a05878586e0bcb4ce61df01aedf08be/big-6c1c0b6fb9088ab4ce7cad2b225e6836.jpg"
+            alt="Avatar"
+            style="width: 100%"
+          />
+          <h3 class="cardFont"><b>Petra</b></h3>
+          <p class="cardPara">
+            The city of Petra, capital of the Nabataean Arabs, is one of the
+            most famous archaeological sites in the world, it is Located 240 km
+            south of the capital Amman and 120 km north of the red sea town of
+            Aqaba (see the Map), Petra the world wonder.
+          </p>
+        </div>
+
+        <div class="flex-child">
+          <img
+            src="https://www.wadirumnightluxury.com/sites/default/files/_MGL2732sss.jpg"
+            alt="Avatar"
+            style="width: 100%"
+          />
+          <h3 class="cardFont"><b>Wadi Rum </b></h3>
+          <p class="cardPara">
+            Wadi Rum is a protected area covering 720 square kilometers of
+            dramatic desert wilderness in the south of Jordan. Huge mountains of
+            sandstone and granite emerge, sheer-sided, from wide sandy valleys
+            to reach heights of 1700 meters and more.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="flex-child">
+          <img
+            src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/c328c8ad6c6dc840683320e15e440d07d3ef103a/big-ea2717f0429ba5633486bba3c46f137c.jpg"
+            alt="Avatar"
+            style="width: 100%"
+          />
+          <h3 class="cardFont"><b>Dead sea</b></h3>
+          <p class="cardPara">
+            The Dead Sea is renowned for its mineral-rich water. Wellness
+            devotees believe the water has healing properties for the skin.
+            Don't plan to swim laps, though — the Dead Sea is so dense and
+            salient that all you can really do is float atop the surface.
+          </p>
+        </div>
+
+        <div class="flex-child">
+          <img
+            src="https://thetravelbrief.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdThEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--dd9338cd169e8e27f9b400945afabca75f0f39db/jerash-207763fe83559c318def5d381a7ab267-9bd165776a"
+            alt="Avatar"
+            style="width: 100%"
+          />
+          <h3 class="cardFont"><b>Jerash</b></h3>
+          <p class="cardPara">
+            Nothing feels more like traveling back in time than visiting the
+            Jerash ruins. It's one of the world's best-preserved ancient Roman
+            cities and features spectacular places to visit.
+          </p>
+        </div>
+
+        <div class="flex-child">
+          <img
+            src="http://wonderstourism.com/wp-content/uploads/2013/05/wadi-al-mujib-canyon-Jordan1.jpg"
+            alt="Avatar"
+            style="width: 100%"
+          />
+          <h3 class="cardFont"><b>Wadi Mujib</b></h3>
+          <p class="cardPara">
+            Stretching from the Desert Highway around 70 kilometers to the Dead
+            Sea, Wadi Mujib is Jordan's answer to America's Grand Canyon. The
+            river canyon, which is four kilometers wide and one kilometer deep,
+          </p>
+        </div>
+      </div>
     </main>
     <footer>
-   
-  
+      <div class="container">
+        <div class="leftSection">
+          <h2>About Us</h2>
+          <div class="content">
+            <p>
+              we are the team of tourism website, this webite responsible on
+              organizing tour in jordan to visit the tourist places.
+            </p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
 
+        <div class="rightSection">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Amman-jordan </span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text"> +962-777777777</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text"> tourism@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-
+      <div class="footer-bottom">
+        <div>
+          <p>&copy; tourism.com</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

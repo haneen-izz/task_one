@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jordan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/jpg" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+    </style>
+
+    <script
+      src="https://kit.fontawesome.com/ca366949b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <p>tourism.com</p>
+      </div>
+
+      <nav id="navBar">
+        <ul>
+          <li><a href="index.html"> Home page</a></li>
+          <li><a href="contactUs.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <img id="image" src="user.png" alt="" />
+      <div class="dropDown">
+        <a id="dropLink" href="#"
+          >haneen jaradeh <i class="fas fa-caret-down"></i>
+        </a>
+
+        <div class="dropContent">
+          <a href="index.html">Home page</a>
+          <a href="contactUs.html">contact us</a>
+        </div>
+      </div>
+    </header>
+    <main id="mainContact">
+        <div class="container">
+            <form action="/action_page.php">
+            <div>
+              <label for="fname">First Name</label>
+           
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+              
+                <label for="city">City:</label>
+                <select name="city" id="city">
+                <option value="Irbid">Irbid</option>
+                <option value="Amman">Amman</option>
+                </select>
+               
+         
+                <label for="file-select">Upload:</label>
+                <input style="color:#001427 ;" type="file" name="upload" id="file-select">
+               
+               <br>
+               <br>
+              <label for="subject">for notes input text here:</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </main>
+    <footer style ="margin-top: 0%;">
+      <div class="container">
+        <div class="leftSection">
+          <h2>About Us</h2>
+          <div class="content">
+            <p>
+              we are the team of tourism website, this webite responsible on
+              organizing tour in jordan to visit the tourist places.
+            </p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="rightSection">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Amman-jordan </span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text"> +962-777777777</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text"> tourism@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <p>&copy; tourism.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
